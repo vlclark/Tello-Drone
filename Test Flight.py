@@ -50,6 +50,12 @@ def square():
         sendmsg("forward 100")
         sendmsg("ccw 90")
 
+# Triangle Function
+def triangle():
+    for i in range(3):
+        sendmsg("forward 100")
+        sendmsg("cw 120")
+
 
 print("\nFirst & Last Names")
 print("Program Name: ")
@@ -66,8 +72,7 @@ try:
         sendmsg('command', 0)
         sendmsg('takeoff')
 
-        # Review the (SDK) Software Development Kit resource for Drone Commands
-        # Delete these comments before writing your program
+        triangle()
 
         sendmsg('land')
 
