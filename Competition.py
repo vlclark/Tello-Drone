@@ -47,6 +47,7 @@ def firstHoop():
     sendmsg("up 75")
     sendmsg("forward 300")
 
+
 def secondHoop():
     sendmsg("go 250 0 75 50")
 
